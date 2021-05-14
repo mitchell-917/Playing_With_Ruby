@@ -10,6 +10,6 @@ while play_game > 0
         puts total.+(1)
         play_game -= 1
     else
-        puts "Please Type 'roll' "    
+        puts "Please Type 'roll'"    
     end
 end
