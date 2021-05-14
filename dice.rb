@@ -7,8 +7,8 @@ while play_game > 0
     if user_input == "roll"
         integer = 6
         total = rand(integer)
-        play_game -= 1
         puts total.+(1)
+        play_game -= 1
     else
         puts "Please Type 'roll' "    
     end
