@@ -1,6 +1,6 @@
 puts "How many times would you like to roll the dice?"
 play_game = gets.chomp.to_i
-puts "Type roll or ROLL to Roll the Dice"
+puts "Type 'roll to roll the Dice"
 
 while play_game > 0
     user_input=gets.chomp.downcase
