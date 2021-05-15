@@ -51,7 +51,7 @@ class Calculator
             sleep(1)
             puts "Restarting Now!"
             sleep(1)
-        elsif run_again_response == 'n'
+        else 
             puts "Thank for your using this Calculator, Goodbye!"
             sleep(1)
             calculator_active = false
