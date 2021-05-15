@@ -14,29 +14,29 @@ class Calculator
 
         def add(n1,n2)
             result = n1 + n2
-            puts "Your calculation is #{n1} + #{n2} = #{result}"
+            puts "Your calculation is: #{n1}+#{n2} = #{result}"
         end
 
         def subtract(n1,n2)
             result = n1 - n2
-            puts "Your calculation is #{n1} - #{n2} = #{result}"            
+            puts "Your calculation is: #{n1}-#{n2} = #{result}"            
         end
 
         def multiply(n1,n2)
             result = n1 * n2
-            puts "Your calculation is #{n1} * #{n2} = #{result}"            
+            puts "Your calculation is: #{n1}*#{n2} = #{result}"            
         end
         
         def divide(n1,n2)
             result = n1 / n2
-            puts "Your calculation is #{n1} / #{n2} = #{result}"            
+            puts "Your calculation is: #{n1}/#{n2} = #{result}"            
         end  
 
         if method_response == 'a'
             calculate.add(@num1,@num2)
-        elsif method_response == 'm' 
-            calculate.subtract(@num1,@num2)
         elsif method_response == 's' 
+            calculate.subtract(@num1,@num2)
+        elsif method_response == 'm' 
             calculate.multiply(@num1,@num2) 
         elsif method_response == 'd'
             calculate.divide(@num1,@num2)        
