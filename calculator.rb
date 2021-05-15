@@ -14,19 +14,22 @@ class Calculator
 
         def add(n1,n2)
             result = n1 + n2
-            puts "#{n1} + #{n2} = #{result}"
+            puts "Your calculation is #{n1} + #{n2} = #{result}"
         end
 
         def subtract(n1,n2)
             result = n1 - n2
+            puts "Your calculation is #{n1} - #{n2} = #{result}"            
         end
 
         def multiply(n1,n2)
             result = n1 * n2
+            puts "Your calculation is #{n1} * #{n2} = #{result}"            
         end
         
         def divide(n1,n2)
             result = n1 / n2
+            puts "Your calculation is #{n1} / #{n2} = #{result}"            
         end  
 
         if method_response == 'a'
