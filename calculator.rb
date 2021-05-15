@@ -1,14 +1,23 @@
-puts "Please enter the calculation like so: 3 + 5, 2 * 10, 2 - 2 or 100 / 5"
-user_input=gets.chomp
-    
-def calculator(string)
-    calculation = []   
-    calculation = string
-    calculation.split('')
-    if calculation.index(calculation) == +
-        result = calculation.index(0).to_i + calculation.index(2).to_i 
-        puts (result)  
-    end    
-end    
+puts "Would you like to [a]dd, [m]ultiply, [s]ubtract or [d]ivide?"
+method_response = gets.chomp.downcase
+puts "Please enter the first number you would like to calculate"
+num1 = gets.chomp.to_i
+num2 = gets.chomp.to_i
 
-calculator(user_input)
+
+
+    def add(n1,n2)
+
+    end
+
+    def subtract(n1,n2)
+
+    end
+
+    def multiply(n1,n2)
+
+    end
+    
+    def divide(n1,n2)
+        
+    end    
