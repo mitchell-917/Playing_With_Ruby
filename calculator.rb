@@ -13,7 +13,7 @@ class Calculator
         calculate = Calculator.new
 
         def add(n1,n2)
-        puts n1 + n2
+            puts n1 + n2
         end
 
         def subtract(n1,n2)
