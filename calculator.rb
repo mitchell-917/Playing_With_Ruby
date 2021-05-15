@@ -4,7 +4,6 @@ class Calculator
     method_response_selected = false 
 
     while calculator_active == true
-
         until method_response_selected == true 
             puts "Would you like to [a]dd, [m]ultiply, [s]ubtract or [d]ivide?"
             method_response = gets.chomp.downcase
