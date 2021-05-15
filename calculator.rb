@@ -40,14 +40,16 @@ class Calculator
         end
         
         puts "Would you like to make another calcualtion, [y]es or [n]o ?"
-        run_again=gets.chomp.downcase
+        run_again_response = gets.chomp.downcase
 
-        if run_again == 'y'
-            puts "Restarting now!"
-        elsif run_again == 'n'
-            calculator_active = false
-        else 
-            puts "Please use 'y' for Yes or 'n' for No"
-        end        
+        if run_again_response == 'y'
+            sleep(0.5)
+            puts "Rebuilding Calculator..."
+            sleep(1)
+            puts "Restarting Now!"
+            sleep(1)                                  
+        elsif run_again_response == 'n'
+            calculator_active = false     
+        end           
     end
 end            
