@@ -14,22 +14,22 @@ class Calculator
 
         def add(n1,n2)
             result = n1 + n2
-            puts "Your calculation is: #{n1}+#{n2} = #{result}"
+            puts "Your calculation is: #{n1} + #{n2} = #{result}"
         end
 
         def subtract(n1,n2)
             result = n1 - n2
-            puts "Your calculation is: #{n1}-#{n2} = #{result}"            
+            puts "Your calculation is: #{n1} - #{n2} = #{result}"            
         end
 
         def multiply(n1,n2)
             result = n1 * n2
-            puts "Your calculation is: #{n1}*#{n2} = #{result}"            
+            puts "Your calculation is: #{n1} * #{n2} = #{result}"            
         end
         
         def divide(n1,n2)
             result = n1 / n2
-            puts "Your calculation is: #{n1}/#{n2} = #{result}"            
+            puts "Your calculation is: #{n1} / #{n2} = #{result}"            
         end  
 
         if method_response == 'a'
@@ -52,6 +52,10 @@ class Calculator
             puts "Restarting Now!"
             sleep(1)                                  
         elsif run_again_response == 'n'
+            clear
+            puts "Thank for your using this Calculator!"
+            sleep(1)
+            puts "Goodbye!"
             calculator_active = false     
         end           
     end
